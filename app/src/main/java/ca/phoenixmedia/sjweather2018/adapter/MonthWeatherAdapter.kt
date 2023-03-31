@@ -1,10 +1,12 @@
-package ca.phoenixmedia.sjweather2018
+package ca.phoenixmedia.sjweather2018.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import ca.phoenixmedia.sjweather2018.App
+import ca.phoenixmedia.sjweather2018.R
 import ca.phoenixmedia.sjweather2018.model.MonthWeather
 
 class MonthWeatherAdapter(private val monthWeatherList: List<MonthWeather>) : RecyclerView.Adapter<MonthWeatherAdapter.ViewHolder>() {

@@ -17,9 +17,6 @@ import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 
-/**
- * A placeholder fragment containing a simple view.
- */
 class GraphicFragment : Fragment() {
 
     private lateinit var pageViewModel: PageViewModel

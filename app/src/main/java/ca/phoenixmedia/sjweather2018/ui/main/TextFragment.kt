@@ -4,19 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import ca.phoenixmedia.sjweather2018.MonthWeatherAdapter
+import ca.phoenixmedia.sjweather2018.adapter.MonthWeatherAdapter
 import ca.phoenixmedia.sjweather2018.databinding.FragmentTextBinding
 import ca.phoenixmedia.sjweather2018.model.MonthWeather
 import ca.phoenixmedia.sjweather2018.util.JsonWeatherHandler
 
-/**
- * A placeholder fragment containing a simple view.
- */
 class TextFragment : Fragment() {
 
     private lateinit var pageViewModel: PageViewModel
