@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SJ Weather 2018</string>
+
+    <string name="text">Text</string>
+    <string name="graphic">Graphic</string>
+
+    <string name="min_temp">Minimum Temp: %1$s°C</string>
+    <string name="avg_temp">Average Temp: %1$s°C</string>
+    <string name="max_temp">Maximum Temp: %1$s°C</string>
+    <string name="total_precipitation">Total Precipitation: %1$smm</string>
+</resources>
